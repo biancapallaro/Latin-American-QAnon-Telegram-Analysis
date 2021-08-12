@@ -29,6 +29,8 @@ Finally, I used the Spacy library to recognize the entities mentioned in the tex
 
 - `Qanon México_2021-07-16`, which includes the messages of the [Mexican Telegram chat](https://t.me/Qanonmexico) in `.html` format. The code I used to scrape those files is in `mexico.py`, and the data analysis can be found in the notebook `Mexico.ipynb`
 
+- `Qanon Venezuela_2021-07-16`, which includes the messages of the [Venezuelan Telegram chat](https://t.me/qanonvenezuelan) in `.html` format. The code I used to scrape those files is in `venezuela.py`, and the data analysis can be found in the notebook `Venezuela.ipynb`
+
 - `Activity`, which includes the `.csv’s` files with the number of messages sent per day in each Telegram group chat, and an analysis of the Telegram activity can be found in `activity.ipynb`
 
 - `Joined`, which includes the `.csv’s` files with the number of users who joined per day in each Telegram group chat, and an analysis can be found in `joined.ipynb`
