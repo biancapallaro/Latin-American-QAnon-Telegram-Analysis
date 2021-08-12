@@ -11,10 +11,10 @@ The analysis explores data from Latin American QAnon Telegram group chats. Using
 I used natural language processing to evaluate the most common words used in the chats. I installed the count vectorization package from the scikit-learn free machine learning library and looked at term frequency. I customized the count vectorizer with Natural Language Toolkit. I eliminated the Spanish stop words,removed punctuation marks and converted all the words into lowercase. 
 
 To analyze when most of the users joined the chat, what users participated the most and the time frame when most of the messages were sent, I used Pandas built-in functions. I also included regular expressions to evaluate where most forwarded messages came from and to analyze the urls and domains shared on the group chat. 
-I used Term Frequency Inverse Document Frequency from scikit-learn to apply K-means. In other words, I used an unsupervised learning algorithm to identify similar groups or clusters of data points within the data. My intention was to summarize the large amounts of text and uncover useful insights by looking at the top terms per cluster.
+
+Furthermore, I used Term Frequency Inverse Document Frequency from scikit-learn to apply K-means. In other words, I used an unsupervised learning algorithm to identify similar groups or clusters of data points within the data. My intention was to summarize the large amounts of text and uncover useful insights by looking at the top terms per cluster.
 
 Finally, I used the Spacy library to recognize the entities mentioned in the text messages and divided the search results by persons, locations, organizations and miscellaneous. For it to work, I increased the maximum number of characters Spacy can handle according to each dataset. 
-The repository contains the following:
 
 ## Files:
 - `PATRIOTAS por la VERDAD!_2021-07-16`, which includes the messages of the [Uruguayan Telegram chat](https://t.me/joinchat/R2Cm5nxDIA7FFMr7) in `.html` format. The code I used to scrape those files is in  `uruguay.py`, and the data analysis can be found in the notebook `Uruguay.ipynb`
