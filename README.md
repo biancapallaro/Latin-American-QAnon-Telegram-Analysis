@@ -1,14 +1,14 @@
 # Analyzing Latin American QAnon Telegram group chats
 
-This repository has data and analysis supporting my Columbia Journalism School thesis project: "Latin Americanization of QAnon: Why and how is the US conspiracy theory thriving in South American countries?" 
-The project was completed on August 11, 2021. 
+This repository has data and analysis supporting my investigation: "Latin Americanization of QAnon: Why and how is the US conspiracy theory thriving in South American countries?" 
+The investigation was completed on August 11, 2021. 
 
 ## Data
 
-The analysis explores data from Latin American QAnon Telegram group chats. Using the Telegram Lite application, I downloaded hundreds of html files containing the messages shared on those groups. I scraped the files using Beautiful Soup Python Library and created a database for each country: Venezuela, Argentina, Colombia, Uruguay, Peru, Mexico and Chile. The databases include the day and time the messages were sent, username and text of the message. 
+The analysis explores data from Latin American QAnon Telegram group chats. Using the Telegram Lite application, I downloaded hundreds of html files containing the messages shared on those groups. I scraped the files using Beautiful Soup Python Library and created a database for each country: Venezuela, Argentina, Colombia, Uruguay, Peru, Mexico and Chile. The databases include the day and time the messages were sent, the username, and the text of the message. 
 
 ## Analysis
-I used natural language processing to evaluate the most common words used in the chats. I installed the count vectorization package from the scikit-learn free machine learning library and looked at term frequency. I customized the count vectorizer with Natural Language Toolkit. I eliminated the Spanish stop words,removed punctuation marks and converted all the words into lowercase. 
+I used natural language processing to evaluate the most common words used in the chats. I installed the count vectorization package from the scikit-learn free machine-learning library and looked at term frequency. I customized the count vectorizer with the Natural Language Toolkit. I eliminated the Spanish stop words, removed punctuation marks, and converted all the words into lowercase. 
 
 To analyze when most of the users joined the chat, what users participated the most and the time frame when most of the messages were sent, I used Pandas built-in functions. I also included regular expressions to evaluate where most forwarded messages came from and to analyze the urls and domains shared on the group chat. 
 
